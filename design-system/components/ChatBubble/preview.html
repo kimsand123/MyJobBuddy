@@ -1,0 +1,19 @@
+<!-- @dsCard group="Chat" height=560 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ChatBubble</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',{className:'mj-chat'},
+ h(M.ChatBubble,{from:'user'},D.questions[0]),
+ h(M.ChatBubble,{from:'ai',source:'Fra din overenskomst'},'Ja. Du er under 18, så du skal have mindst 30 minutters pause, når du arbejder mere end 4,5 timer.'),
+ h(M.ChatBubble,{from:'user'},D.questions[1]),
+ h(M.ChatBubble,{from:'ai',source:'Fra din kontrakt, § 7'},'Nej, det er din arbejdsgivers ansvar at finde en afløser.'),
+ h(M.ChatBubble,{from:'ai',typing:true}),
+ h(M.ChatBubble,{from:'ai',error:'Svaret kom ikke frem. Tjek din forbindelse.',onRetry:function(){}}),
+ h(M.AiDisclaimer))));
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!-- @dsCard height=320 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><title>Cover</title>
+<style>
+  html, body { margin: 0; background: var(--background); }
+  .cover { position: relative; width: 960px; height: 320px; overflow: hidden; background: var(--background); font-family: var(--font-sans); }
+  .cover svg { position: absolute; inset: 0; }
+  .navy { fill: var(--navy); } .brand { fill: var(--primary); } .tint { fill: var(--secondary); } .bright { fill: var(--primary-bright); }
+  .block { rx: var(--radius-xl); }
+  .pill { fill: var(--secondary); rx: 12px; }
+  .name { position: absolute; left: var(--space-8); bottom: var(--space-8); max-width: 440px; }
+  .name h1 { margin: 0; font-size: 88px; line-height: .95; font-weight: 800; letter-spacing: -0.02em; color: var(--foreground); }
+  .name p { margin: var(--space-3) 0 0; font-size: 14px; line-height: 20px; color: var(--muted-foreground); }
+</style></head>
+<body>
+<div class="cover">
+  <svg width="960" height="320" viewBox="0 0 960 320" aria-hidden="true">
+    <!-- blocks: navy 200×344 (slab), primary 232×216, secondary 232×128, primary-bright disc r 56; corners radius-xl -->
+    <!-- arrangement: one tall navy slab with two stacked satellites bleeding off top, right and bottom -->
+    <!-- pattern: soft, friendly, large radii (radius-full, "afrundede kort") → 12 staggered secondary pills on the navy slab, echoing chat bubbles -->
+    <!-- steps: pill 64×24 (space-6 high), gaps space-4/space-6, offset space-6; radii radius-xl and radius-full -->
+    <rect class="navy block" x="520" y="-24" width="200" height="368"/>
+    <rect class="pill" x="544" y="28" width="64" height="24"/><rect class="pill" x="624" y="28" width="64" height="24"/><rect class="pill" x="568" y="76" width="64" height="24"/><rect class="pill" x="648" y="76" width="64" height="24"/><rect class="pill" x="544" y="124" width="64" height="24"/><rect class="pill" x="624" y="124" width="64" height="24"/><rect class="pill" x="568" y="172" width="64" height="24"/><rect class="pill" x="648" y="172" width="64" height="24"/><rect class="pill" x="544" y="220" width="64" height="24"/><rect class="pill" x="624" y="220" width="64" height="24"/><rect class="pill" x="568" y="268" width="64" height="24"/><rect class="pill" x="648" y="268" width="64" height="24"/>
+    <rect class="brand block" x="736" y="-24" width="248" height="216"/>
+    <rect class="tint block" x="736" y="208" width="248" height="136"/>
+    <circle class="bright" cx="736" cy="192" r="56"/>
+  </svg>
+  <div class="name"><h1>Min<br>Jobbuddy</h1><p>Din arbejdsplads i lommen</p></div>
+</div>
+</body>
+</html>

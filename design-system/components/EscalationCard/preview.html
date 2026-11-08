@@ -1,0 +1,16 @@
+<!-- @dsCard group="Henvisning og samtykke" height=520 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>EscalationCard</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',{className:'mj-chat'},
+ h(M.ChatBubble,{from:'user'},'Min chef siger, at jeg bliver fyret, hvis jeg melder mig syg igen.'),
+ h(M.ChatBubble,{from:'ai'},'Det lyder hårdt, og det er godt, du spørger. Du må gerne være syg, og din chef må ikke true dig for det.'),
+ h(M.EscalationCard,{text:'Kontakt en fagforening, fx HK Handel.'})),
+ h('div',null,h('p',{className:'mj-demo-label'},"Deaktiveret"),h(M.EscalationCard,{text:'Kontakt en fagforening, fx HK Handel.',disabled:true}))));
+</script>
+</body>
+</html>

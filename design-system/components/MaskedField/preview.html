@@ -1,0 +1,12 @@
+<!-- @dsCard group="Upload" height=240 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>MaskedField</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',{className:'mj-stack'},h(M.MaskedField,{label:'CPR-nummer',maskedValue:'••••••-••••'}),h(M.MaskedField,{label:'Kontonummer',maskedValue:'•••• ••••••••••'}),h(M.MaskedField,{label:'Adresse',maskedValue:'••••••••• ••, ••••'}))));
+</script>
+</body>
+</html>

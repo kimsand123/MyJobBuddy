@@ -1,0 +1,12 @@
+<!-- @dsCard group="Fælles tilstande" height=300 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ErrorState</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',{className:'mj-card'},h(M.ErrorState,{text:'Vi kunne ikke hente din lønseddel. Dine data er ikke væk.',onRetry:function(){}}))));
+</script>
+</body>
+</html>

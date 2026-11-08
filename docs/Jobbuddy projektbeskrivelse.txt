@@ -1,0 +1,190 @@
+EØ-idé – Jobbuddy
+
+Baggrund og problem
+Da jeg gik i 9. klasse, arbejdede jeg i SuperBrugsen. Her oplevede jeg, at der var flere vagter og løntimer, som ikke blev registreret korrekt. Samtidig havde jeg meget lidt viden om min overenskomst, mine rettigheder og hvad min chef måtte og ikke måtte kræve af mig.
+Jeg vidste derfor ikke, hvad jeg skulle gøre, eller hvem jeg skulle spørge om hjælp.
+Mange unge har sandsynligvis samme problem. Selvom man eksempelvis gennem HK Handel kan få hjælp og rådgivning, kan det for unge virke besværligt at skulle kontakte en fagforening, finde sin overenskomst og forstå de mange regler.
+Derfor er vores idé at gøre hjælpen meget lettere og mere tilgængelig gennem en app.
+Idéen
+Appen skal muligvis hedde JobBuddy.
+JobBuddy skal fungere som en simpel digital arbejdsrådgiver for unge med fritids- og studiejob. Appen skal ikke nødvendigvis erstatte en fagforening, men gøre det meget nemmere for unge at forstå deres kontrakt, overenskomst, løn og rettigheder på arbejdspladsen.
+AI skal være en central del af appen og hjælpe brugeren med at forstå de ofte komplicerede regler.
+Appens funktioner
+Kontrakt og overenskomst
+Brugeren skal kunne uploade sin ansættelseskontrakt og overenskomst. AI'en skal derefter finde de vigtigste oplysninger, eksempelvis:
+•	Timeløn
+•	Aften- og nattillæg
+•	Weekend- og helligdagstillæg
+•	Regler om arbejdstider
+•	Opsigelsesregler
+•	Pauser
+•	Sygdom og andre rettigheder
+Oplysningerne gemmes på brugerens profil, så appen senere kan bruge dem, og der skal være mulighed for at redigere i dem selv.
+Registrering af vagter
+Der skal være en kalender eller vagtplan i appen, hvor brugeren kan skrive sine vagter ind.
+Man kan eksempelvis registrere:
+•	Dato
+•	Starttidspunkt
+•	Sluttidspunkt
+•	Pause
+•	Eventuelle ændringer i vagten
+På den måde ved appen, hvor mange timer brugeren har arbejdet, og hvilke tillæg personen burde få.
+
+Løntjek
+Når brugeren modtager sin lønseddel, skal den kunne uploades til appen.
+AI'en sammenligner derefter:
+1.	De vagter brugeren selv har registreret.
+2.	Reglerne fra kontrakten og overenskomsten.
+3.	Oplysningerne på lønsedlen.
+Appen kan derefter fortælle, om lønnen ser korrekt ud.
+Hvis der eksempelvis mangler et søndagstillæg eller nogle arbejdstimer, bliver brugeren gjort opmærksom på det.
+AI-rådgiver
+Appen skal også have en chatbot, hvor brugeren kan stille spørgsmål om sit arbejde.
+Det kunne eksempelvis være:
+"Må min chef give mig en vagt med meget kort varsel?"
+"Må min chef spørge efter en lægeerklæring?"
+"Har jeg ret til pause på en 8 timers vagt?"
+"Må min chef ændre min vagt dagen før?"
+AI'en skal svare ud fra brugerens konkrete kontrakt og overenskomst, så svaret bliver mere personligt og relevant.
+Hvis problemet er alvorligt eller kræver juridisk rådgivning, skal appen i stedet anbefale, at brugeren kontakter eksempelvis HK Handel eller en anden relevant fagforening.
+Målgruppe
+Den primære målgruppe er unge med fritids- og studiejob, eksempelvis unge mellem cirka 15 og 25 år.
+Det kan især være unge, der arbejder inden for:
+•	Supermarkeder
+•	Detailhandel
+•	Restauranter og caféer
+•	Fastfood
+•	Butikker
+•	Andre almindelige ungdomsjob
+
+Målgruppen
+Fælles for målgruppen er, at de ofte har begrænset erfaring med arbejdsmarkedet og derfor ikke nødvendigvis kender deres rettigheder.
+Værdi for brugeren
+Den vigtigste værdi ved JobBuddy er, at arbejdsmarkedsregler bliver gjort simple og let tilgængelige.
+I stedet for selv at skulle læse en lang kontrakt eller overenskomst kan brugeren spørge appen direkte.
+Appen kan samtidig opdage fejl i lønnen, som brugeren måske aldrig selv ville have opdaget.
+Dermed kan JobBuddy være med til at give unge større kontrol over deres:
+arbejdstider, løn, kontrakt og rettigheder.
+AI i virksomheden
+AI er en vigtig del af idéen.
+AI kan blandt andet bruges til at:
+•	Læse kontrakter.
+•	Læse overenskomster.
+•	Udtrække løn og tillæg.
+•	Læse lønsedler.
+•	Sammenligne lønsedler med registrerede vagter.
+•	Besvare spørgsmål om arbejdsforhold.
+•	Forklare komplicerede regler på et simpelt sprog.
+Det gør det muligt at give brugeren personlig rådgivning uden, at personen selv skal forstå hele sin overenskomst.
+
+Mulige problemstillinger
+GDPR og persondata
+En af de største udfordringer er GDPR.
+Kontrakter og lønsedler indeholder mange personlige oplysninger, eksempelvis:
+•	Navn
+•	Adresse
+•	CPR-oplysninger
+•	Arbejdsplads
+•	Løn
+•	Bank- og skatteoplysninger
+Derfor skal virksomheden have meget høj datasikkerhed og klare regler for, hvordan oplysninger bliver opbevaret og behandlet.
+Forkerte AI-svar
+AI'en kan potentielt misforstå en regel eller give et forkert svar.
+Det er et stort problem, fordi brugeren kan træffe beslutninger om sit arbejde ud fra appens svar.
+Derfor skal det være tydeligt, at appen giver vejledning og ikke nødvendigvis juridisk rådgivning. Ved mere alvorlige problemer skal brugeren henvises til en fagforening eller anden professionel rådgivning.
+Konkurrence fra fagforeninger
+Organisationer som HK Handel tilbyder allerede rådgivning om løn, overenskomst og rettigheder.
+JobBuddy skal derfor ikke nødvendigvis konkurrere direkte med HK.
+En mulighed kunne i stedet være et samarbejde med HK Handel.
+JobBuddy kunne være den første og meget lettilgængelige hjælp, mens større problemer bliver sendt videre til HK.
+Det kunne samtidig være interessant for HK, fordi appen kan gøre flere unge opmærksomme på fagforeninger og deres rettigheder.
+Kort beskrivelse af konceptet
+JobBuddy er en AI-baseret arbejdsapp til unge, som samler vagtplan, kontrakt, overenskomst og lønseddel ét sted. Appen hjælper unge med at kontrollere deres løn og forstå deres rettigheder på arbejdspladsen på en enkel og tilgængelig måde.
+
+Undersøgelser
+Jobpatruljen interviewede 3.218 unge mellem 13 og 17 år med fritidsjob i hele Danmark i 2025. Undersøgelsen viser blandt andet:
+•	27,5 % ved ikke, at de har bestemte rettigheder på arbejdsmarkedet.
+•	20,5 % får ikke aften- og weekendtillæg.
+•	5,4 % arbejder uden en ansættelseskontrakt, selvom de har krav på en.
+•	41,1 % får ikke løn under sygdom, selvom mange af dem sandsynligvis har ret til det.
+•	23,7 % får ikke den pause, de har krav på.
+•	20,7 % bliver bedt om selv at finde en afløser, når de er syge.
+•	68,4 % af de undervisningspligtige arbejder længere på skoledage, end reglerne tillader.
+https://via.ritzau.dk/pressemeddelelse/14160421/vilde-tal-96percent-af-unge-fritidsjobbere-er-udsat-for-brud-pa-reglerne?publisherId=90400&lang=da
+
+
+1. Indhold – appens tre hovedfunktioner
+Midten af slidet skal indeholde tre felter ved siden af hinanden med hver sin hovedfunktion.
+Funktion 1 – Løntjek
+Brugeren kan uploade sin lønseddel, som Job Buddy analyserer og sammenligner med de registrerede arbejdstimer og relevante lønvilkår.
+Appen skal kunne:
+•	Opdage mulige fejl i lønudbetalingen.
+•	Kontrollere arbejdstimer og relevante tillæg.
+•	Forklare eventuelle fejl og hjælpe brugeren med næste skridt.
+
+Funktion 2 – Vagtplan
+Brugeren kan registrere sine vagter direkte i appen.
+Appen skal kunne:
+•	Holde styr på arbejdstimer, pauser og vagter.
+•	Beregne den forventede løn.
+•	Sammenligne registrerede timer med lønsedlen.
+
+Funktion 3 – Personlig AI-rådgiver
+Brugeren kan uploade sin ansættelseskontrakt og stille spørgsmål om sine arbejdsforhold.
+Appen skal kunne:
+•	Forklare kontrakter og relevante overenskomster i et forståeligt sprog.
+•	Besvare spørgsmål om eksempelvis pauser, sygdom og arbejdstider.
+•	Vejlede brugeren om, hvor vedkommende kan få yderligere hjælp ved alvorlige problemer.
+
+
+Hvorfor vælge Job Buddy?
+Formål: At vise, hvordan Job Buddy adskiller sig fra eksisterende løsninger som fagforeninger, vagtplan-apps og AI-chatbots. Dommerne skal forstå, hvad der gør Job Buddy innovativ, og hvorfor målgruppen skulle vælge netop vores løsning.
+
+Underoverskrift: Én app. Alle dine arbejdsrelaterede spørgsmål og oplysninger samlet ét sted.
+
+
+Yderligere kontekst
+Få hurtig og letforståelig hjælp direkte fra mobilen – døgnet rundt.
+Få adgang til grundlæggende hjælp uden medlemskab eller kontingent.
+Løntjek, vagtplan, kontraktforståelse og AI-rådgivning i samme app.
+Få vejledning med udgangspunkt i din kontrakt og dine arbejdsforhold.
+
+
+"Hvad koster det at drive Job Buddy?"
+Indhold:
+•	AI: Foreløbigt budget på 1-2 kr. pr. aktiv bruger om måneden.
+•	Teknologi: Servere, lagring og vedligeholdelse.
+•	Øvrige udgifter: Udvikling, datasikkerhed og markedsføring.
+
+AI-beløbet er et budgetestimat, der skal testes, ikke en garanteret pris.
+
+Fremtiden for Job Buddy
+Formål: At vise, hvordan vi vil udvikle Job Buddy fra en idé til en reel virksomhed, skaffe vores første brugere og på længere sigt udvide målgruppen. Samtidig skal vi fremhæve virksomhedens potentiale og sociale værdi.
+
+"Fremtiden for Job Buddy"
+
+Trin 1 – Udvikling og test
+Indsamle feedback, finde fejl og forbedre brugeroplevelsen.
+Trin 2 – Markedsføring
+Skabe opmærksomhed og få de første brugere med meget lave markedsføringsomkostninger.
+Vi kan oprette profiler gratis og producere vores eget indhold, eksempelvis korte videoer om unges rettigheder, typiske lønfejl og situationer fra fritidsjobs.
+Organisk markedsføring kræver dog tid og arbejde, selvom vi ikke betaler for annoncer.
+Trin 3 – Samarbejdspartnere
+Skabe nye indtægtsmuligheder, øge troværdigheden og gøre det lettere at hjælpe brugere med alvorlige arbejdsrelaterede problemer.
+Trin 4 – Udvidelse
+Gøre Job Buddy til en digital arbejdsassistent for hele arbejdsmarkedet.
+
+social bæredygtighed
+
+•	Verdensmål 8 – Anstændige jobs og økonomisk vækst: Job Buddy skal bidrage til bedre kendskab til arbejdsrettigheder og ordentlige arbejdsvilkår.
+•	Verdensmål 10 – Mindre ulighed: Appen skal gøre information og grundlæggende hjælp tilgængelig for flere, uanset økonomi og baggrund.
+
+Hvordan skal appen fremstå
+simpel
+tydelig
+hotbar i bunden
+i midten af hotbar en chatbox hvor man kan skrive med AI
+
+Appen henvender sig til unge mellem 15-25 som har deltidsjobs
+
+

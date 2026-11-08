@@ -1,0 +1,24 @@
+# Sikkerheds- og cache-headers (Netlify og Cloudflare Pages).
+# CSP: scripts kun fra egen server (ingen inline scripts eller eval). style-src tillader
+# 'unsafe-inline', fordi Radix (Dialog, Sheet, Select) via react-remove-scroll indsætter et
+# <style>-element under kørsel; det kan ikke få en fast hash eller nonce på en statisk host.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+
+# Altid den nyeste udgave (service worker, startside og manifest).
+/sw.js
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+
+# Filer med hash i navnet ændres aldrig.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

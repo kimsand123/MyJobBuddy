@@ -1,0 +1,12 @@
+<!-- @dsCard group="Navigation og forside" height=260 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>PromoBanner</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h(M.PromoBanner,{title:'Spørg AI',text:'Få svar ud fra din egen kontrakt. 3 af 5 gratis spørgsmål tilbage.',actionLabel:'Spørg'}),h('div',null,h('p',{className:'mj-demo-label'},"Deaktiveret (ingen spørgsmål tilbage)"),h(M.PromoBanner,{title:'Spørg AI',text:'Du har brugt dine 5 gratis spørgsmål denne måned.',actionLabel:'Spørg',disabled:true}))));
+</script>
+</body>
+</html>

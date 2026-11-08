@@ -1,0 +1,12 @@
+<!-- @dsCard group="Navigation og forside" height=300 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>GreetingCard</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h(M.GreetingCard,{firstName:D.user.firstName,job:D.user.job,workplace:D.user.workplace,agreement:D.user.agreement}),h('div',null,h('p',{className:'mj-demo-label'},"Loading"),h(M.GreetingCard,{loading:true}))));
+</script>
+</body>
+</html>

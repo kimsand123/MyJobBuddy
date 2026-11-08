@@ -1,0 +1,93 @@
+{
+  "v": 3,
+  "assetGroups": {
+    "Logos": {
+      "files": {
+        "logo-mark.svg": {
+          "name": "logo-mark.svg",
+          "blob": "6a0003c0046a72ce6d3b4b277b05b0d0",
+          "size": 385,
+          "type": "image/svg+xml"
+        },
+        "logo-mark-inverse.svg": {
+          "name": "logo-mark-inverse.svg",
+          "blob": "2540123a291801f0dfd7c8a61fe56375",
+          "size": 385,
+          "type": "image/svg+xml"
+        },
+        "logo-glyph.svg": {
+          "name": "logo-glyph.svg",
+          "blob": "172a7937126cef4979a16cd353792930",
+          "size": 293,
+          "type": "image/svg+xml"
+        },
+        "app-icon-1024.svg": {
+          "name": "app-icon-1024.svg",
+          "blob": "aa17b7ee67e9a223b74cb7ab5e17f0b4",
+          "size": 370,
+          "type": "image/svg+xml"
+        },
+        "app-icon-1024.png": {
+          "name": "app-icon-1024.png",
+          "blob": "62c29e0698aed96bf157eb61d5ef369b",
+          "size": 16982,
+          "type": "image/png"
+        },
+        "app-icon-maskable-1024.svg": {
+          "name": "app-icon-maskable-1024.svg",
+          "blob": "19d80db57560c43d11bf931007ae5bd4",
+          "size": 375,
+          "type": "image/svg+xml"
+        },
+        "app-icon-maskable-1024.png": {
+          "name": "app-icon-maskable-1024.png",
+          "blob": "85e956b55f5e47778cc28a01d015a246",
+          "size": 14964,
+          "type": "image/png"
+        }
+      },
+      "name": "Logos",
+      "order": [
+        "logo-mark.svg",
+        "logo-mark-inverse.svg",
+        "logo-glyph.svg",
+        "app-icon-1024.png",
+        "app-icon-maskable-1024.png",
+        "app-icon-1024.svg",
+        "app-icon-maskable-1024.svg"
+      ],
+      "tile": "m"
+    }
+  },
+  "blobs": {},
+  "createdOnFiles": {
+    "at": "2026-11-08T11:46:03Z",
+    "v": 1
+  },
+  "docs": {
+    "sections": []
+  },
+  "groups": [
+    "Logos"
+  ],
+  "lastChange": {
+    "by": "Claude",
+    "at": "2026-11-08T11:52:56Z",
+    "via": "Claude Code",
+    "note": "Nyt logo: Spor (J med prik)"
+  },
+  "layout": "files",
+  "libraries": [
+    {
+      "name": "react",
+      "version": "18"
+    },
+    {
+      "name": "react-dom",
+      "version": "18"
+    }
+  ],
+  "namespace": "MinJobbuddy",
+  "sections": {},
+  "title": "Min Jobbuddy"
+}

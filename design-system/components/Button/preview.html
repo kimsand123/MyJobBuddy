@@ -1,0 +1,15 @@
+<!-- @dsCard group="Basis" height=300 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Button</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},
+ h('div',null,h('p',{className:'mj-demo-label'},"Varianter"),h('div',{className:'mj-row'},h(M.Button,null,'Kom i gang'),h(M.Button,{variant:'secondary'},'Spørg AI'),h(M.Button,{variant:'outline',icon:'download'},'Hent data'),h(M.Button,{variant:'ghost',icon:'pencil'},'Ret'),h(M.Button,{variant:'destructive',icon:'trash-2'},'Slet alt'))),
+ h('div',null,h('p',{className:'mj-demo-label'},"Tilstande: normal, fokus, loading, deaktiveret"),h('div',{className:'mj-row'},h(M.Button,null,'Bekræft'),h(M.Button,{className:'is-focus'},'Bekræft'),h(M.Button,{loading:true},'Gemmer…'),h(M.Button,{disabled:true},'Bekræft'))),
+ h('div',null,h('p',{className:'mj-demo-label'},"Stor, fuld bredde"),h(M.Button,{size:'lg',block:true,iconRight:'chevron-right'},'Kom i gang'))));
+</script>
+</body>
+</html>

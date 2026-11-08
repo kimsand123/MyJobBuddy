@@ -1,0 +1,12 @@
+<!-- @dsCard group="Navigation og forside" height=240 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>AppHeader</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-stack'},h('p',{className:'mj-demo-label'},"Hjem"),h(M.AppHeader,{action:{icon:'bell',label:'Notifikationer',badge:true}}),h('p',{className:'mj-demo-label'},"Underside"),h(M.AppHeader,{title:'Kontrakt',onBack:function(){}}),h('p',{className:'mj-demo-label'},"Fokus på tilbage"),h(M.AppHeader,{title:'Løn',onBack:function(){},focusBack:true})));
+</script>
+</body>
+</html>

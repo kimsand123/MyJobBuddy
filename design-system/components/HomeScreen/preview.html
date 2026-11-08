@@ -1,0 +1,15 @@
+<!-- @dsCard group="Skærme" height=900 width=390 page -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>HomeScreen</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{style:{minHeight:844,display:'flex',flexDirection:'column'}},h(M.AppHeader,{action:{icon:'bell',label:'Notifikationer',badge:true}}),h('main',{className:'mj-page mj-stack',style:{flex:1,gap:16,width:'100%'}},
+ h(M.GreetingCard,{firstName:D.user.firstName,job:D.user.job,workplace:D.user.workplace,agreement:D.user.agreement}),
+ h('div',{className:'mj-tiles'},h(M.FeatureTile,{icon:'file-text',title:'Kontrakt',description:'7 vilkår fundet'}),h(M.FeatureTile,{icon:'calendar-days',title:'Vagter',description:'5 vagter i oktober'}),h(M.FeatureTile,{icon:'wallet',title:'Løn',description:'Tjek oktober',status:{tone:'warning',text:'2 fejl'}}),h(M.FeatureTile,{icon:'scale',title:'Rettigheder',description:'Kend dine rettigheder'})),
+ h(M.PromoBanner,{title:'Spørg AI',text:'Få svar ud fra din egen kontrakt.',actionLabel:'Spørg'})),h(M.BottomTabBar,{active:'home'})));
+</script>
+</body>
+</html>

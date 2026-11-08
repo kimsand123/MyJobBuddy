@@ -1,0 +1,14 @@
+<!-- @dsCard group="Vilkår" height=640 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>FactRow</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h(M.FactList,{label:'Dine vilkår'},D.terms.slice(0,4).map(function(t,i){return h(M.FactRow,Object.assign({key:t.label},t,{edited:i===0?false:undefined}))})),
+ h('div',null,h('p',{className:'mj-demo-label'},"Rettet, fokus, loading, deaktiveret"),h(M.FactList,null,h(M.FactRow,{label:'Timeløn',value:'95,00 kr.',source:'Din kontrakt, § 3',edited:true}),h(M.FactRow,{label:'Pause',value:'30 min. ved mere end 4,5 timer',source:'Din kontrakt, § 5',focused:true}),h(M.FactRow,{loading:true}),h(M.FactRow,{label:'Opsigelse',value:'Du kan sige op med 14 dages varsel',source:'Din kontrakt, § 8',disabled:true}))),
+ h(M.Button,{size:'lg',block:true,icon:'check'},'Bekræft')));
+</script>
+</body>
+</html>

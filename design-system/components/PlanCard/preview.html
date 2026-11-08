@@ -1,0 +1,15 @@
+<!-- @dsCard group="Indstillinger" height=820 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>PlanCard</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},
+ h(M.PlanCard,{name:'Gratis',price:'0 kr./md.',current:true,usage:{used:2,total:5,unit:'spørgsmål'},features:['5 AI-spørgsmål om måneden','1 løntjek om måneden']}),
+ h(M.PlanCard,{name:'Plus',price:'29 kr./md.',features:['100 AI-spørgsmål om måneden','Ubegrænset løntjek'],ctaLabel:'Skift til Plus'}),
+ h(M.PlanCard,{name:'Betal pr. spørgsmål',price:'Du ser prisen, før du betaler',features:['Ingen binding','Betal kun, når du spørger'],ctaLabel:'Køb spørgsmål',disabled:true})));
+</script>
+</body>
+</html>

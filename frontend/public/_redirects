@@ -1,0 +1,3 @@
+# SPA-fallback (Netlify og Cloudflare Pages): ukendte stier som /loen får index.html.
+# Eksisterende filer (fx /assets/*, /sw.js) serveres stadig først.
+/* /index.html 200

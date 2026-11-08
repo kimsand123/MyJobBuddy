@@ -1,0 +1,12 @@
+<!-- @dsCard group="Chat" height=420 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ChatInput</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-stack',style:{gap:20,paddingTop:16}},h('p',{className:'mj-demo-label'},"Tom"),h(M.ChatInput,{value:'',remaining:3,total:5}),h('p',{className:'mj-demo-label'},"Skrevet og fokus"),h(M.ChatInput,{value:'Hvad får jeg i tillæg om lørdagen?',remaining:3,total:5,focused:true}),h('p',{className:'mj-demo-label'},"Ingen spørgsmål tilbage"),h(M.ChatInput,{value:'',remaining:0,total:5})));
+</script>
+</body>
+</html>

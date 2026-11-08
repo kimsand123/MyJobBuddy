@@ -1,0 +1,12 @@
+<!-- @dsCard group="Basis" height=120 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Badge</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',null,h('p',{className:'mj-demo-label'},"Status har altid ikon og tekst"),h('div',{className:'mj-row'},h(M.Badge,{tone:'success'},'I orden'),h(M.Badge,{tone:'warning'},'2 mulige fejl'),h(M.Badge,{tone:'danger'},'Fejl'),h(M.Badge,{tone:'info'},'Til info'),h(M.Badge,{tone:'primary',icon:'eye-off'},'Skjult for AI'),h(M.Badge,{tone:'neutral',icon:'clock'},'Kommer snart')))));
+</script>
+</body>
+</html>

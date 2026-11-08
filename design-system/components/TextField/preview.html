@@ -1,0 +1,16 @@
+<!-- @dsCard group="Basis" height=420 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>TextField</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},
+ h(M.TextField,{label:'Fornavn',value:'Maja',hint:'Vises kun for dig.'}),
+ h(M.TextField,{label:'Fokus',value:'Torvebutikken',inputClassName:'is-focus'}),
+ h(M.TextField,{label:'Slut',type:'time',value:'14:00',error:'Slut skal være efter start (15:30).'}),
+ h(M.TextField,{label:'Overenskomst',value:'HK Handel – Butik',disabled:true})));
+</script>
+</body>
+</html>

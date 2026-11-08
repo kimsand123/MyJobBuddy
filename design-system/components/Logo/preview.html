@@ -1,0 +1,12 @@
+<!-- @dsCard group="Basis" height=260 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Logo</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',null,h('p',{className:'mj-demo-label'},"Logo i header"),h(M.Logo,{size:32})),h('div',null,h('p',{className:'mj-demo-label'},"Mærke med firkant"),h('div',{className:'mj-row'},h(M.LogoMark,{size:64}),h(M.LogoMark,{size:44}),h(M.LogoMark,{size:32}),h(M.LogoMark,{size:24}))),h('div',null,h('p',{className:'mj-demo-label'},"Kun J"),h('div',{className:'mj-row'},h(M.LogoMark,{size:64,tile:false}),h(M.LogoMark,{size:44,tile:false}),h(M.LogoMark,{size:32,tile:false})))));
+</script>
+</body>
+</html>

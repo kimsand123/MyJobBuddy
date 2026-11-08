@@ -1,0 +1,14 @@
+<!-- @dsCard group="Henvisning og samtykke" height=900 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ConsentSheet</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{style:{height:880,position:'relative'}},h('div',{className:'mj-page mj-stack'},h(M.EscalationCard,{text:'Kontakt en fagforening, fx HK Handel.'})),h('div',{style:{position:'absolute',inset:0}},h(M.ConsentSheet,{open:true,inline:true,recipient:'HK Handel',
+ shared:[{label:'Dit fornavn og din alder',value:'Maja, 17 år'},{label:'Din arbejdsplads',value:'Torvebutikken · HK Handel – Butik'},{label:'Din besked',value:'\u201cMin chef siger, at jeg bliver fyret, hvis jeg melder mig syg igen.\u201d'},{label:'Dit telefonnummer',value:'Så de kan ringe dig op'}],
+ notShared:['CPR-nummer og adresse','Kontonummer','Dine kontrakter og lønsedler','Resten af din chat']}))));
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!-- @dsCard group="Upload" height=900 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>UploadCard</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},
+ h('div',null,h('p',{className:'mj-demo-label'},"Tom"),h(M.UploadCard,{title:'Upload din kontrakt',description:'AI\u2019en finder dine vilkår. Vi fjerner CPR og adresse først.',status:'idle'})),
+ h('div',null,h('p',{className:'mj-demo-label'},"Uploader"),h(M.UploadCard,{title:'Upload din kontrakt',description:'Det tager kun et øjeblik.',status:'uploading',progress:64,fileName:'Kontrakt_Torvebutikken.pdf'})),
+ h('div',null,h('p',{className:'mj-demo-label'},"AI læser"),h(M.UploadCard,{title:'Upload din kontrakt',description:'Det tager kun et øjeblik.',status:'reading',fileName:'Kontrakt_Torvebutikken.pdf',readingText:'AI læser din kontrakt…'})),
+ h('div',null,h('p',{className:'mj-demo-label'},"Færdig"),h(M.UploadCard,{title:'Lønseddel for oktober',description:'Vi har skjult dine personoplysninger.',status:'done',fileName:'Loenseddel_okt_2026.pdf',doneText:'Færdig · 2 felter skjult for AI'})),
+ h('div',null,h('p',{className:'mj-demo-label'},"Fejl"),h(M.UploadCard,{title:'Upload din kontrakt',description:'',status:'error'}))));
+</script>
+</body>
+</html>

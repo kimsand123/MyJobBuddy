@@ -1,0 +1,14 @@
+<!-- @dsCard group="Vagter" height=620 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ShiftListItem</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',{className:'mj-stack'},D.shifts.map(function(s){return h(M.ShiftListItem,Object.assign({key:s.date},s))}),
+ h('div',{className:'mj-card mj-card-pad',style:{display:'flex',justifyContent:'space-between',gap:12,flexWrap:'wrap'}},h('div',null,h('span',{className:'text-body-sm mj-muted',style:{display:'block'}},'Timer i alt'),h('span',{className:'text-amount mj-num'},M.formatHours(D.totals.hours)+' t')),h('div',{style:{textAlign:'right'}},h('span',{className:'text-body-sm mj-muted',style:{display:'block'}},'Forventet bruttoløn'),h('span',{className:'text-amount mj-num'},M.formatKr(D.totals.expectedPay))))),
+ h('div',null,h('p',{className:'mj-demo-label'},"Fokus og deaktiveret"),h('div',{className:'mj-stack'},h(M.ShiftListItem,Object.assign({},D.shifts[0],{focused:true})),h(M.ShiftListItem,Object.assign({},D.shifts[1],{disabled:true}))))));
+</script>
+</body>
+</html>

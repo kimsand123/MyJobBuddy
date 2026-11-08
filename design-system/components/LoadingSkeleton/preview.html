@@ -1,0 +1,12 @@
+<!-- @dsCard group="Fælles tilstande" height=420 width=390 -->
+<!doctype html>
+<html lang="da">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>LoadingSkeleton</title></head>
+<body>
+<div id="root"></div>
+<script>
+  var M = window.MinJobbuddy, h = React.createElement, D = M.exampleData;
+  ReactDOM.createRoot(document.getElementById('root')).render(h('div',{className:'mj-demo-grid'},h('div',null,h('p',{className:'mj-demo-label'},"Liste"),h(M.LoadingSkeleton,{variant:'list',rows:2,label:'Henter vagter…'})),h('div',null,h('p',{className:'mj-demo-label'},"Kort"),h(M.LoadingSkeleton,{variant:'card'})),h('div',null,h('p',{className:'mj-demo-label'},"Tekst"),h(M.LoadingSkeleton,{variant:'text',rows:3}))));
+</script>
+</body>
+</html>
